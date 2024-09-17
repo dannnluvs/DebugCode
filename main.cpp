@@ -3,15 +3,14 @@ using namespace std;
 
 int main() {
     //Debug code
-    int fnum;
+    int fnum, snum, tnum, sum;
 
-    fnum=10
-    snum=20
-    tnum=30
+    fnum = 10;
+    snum = 20;
+    tnum = 30;
+    sum = fnum + snum + tnum;
 
-    sum=fnum+snum+tnum;
-
-    cout<<"The sum of"<fnum<<""<<snum<<""<<tnum<"is: "<sum;
+    cout << "The sum of " << fnum << " " << snum << " " << tnum << " is: " << sum;
 
     return 0;
 }
